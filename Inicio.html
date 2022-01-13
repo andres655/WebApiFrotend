@@ -84,7 +84,7 @@
 
             $.ajax({
                     method: "DELETE",
-                    url: "https://localhost:44372/api/Book?id=" + $(this).data("id")
+                    url: "https://localhost:44372/api/Book/" + $(this).data("id")
                 })
                 .done(function(response) {
                     console.log(response);
